@@ -1,0 +1,6 @@
+name: llm-inference-mcp
+description: "Multi-model LLM routing with cost optimization, structured output enforcement, batch inference, token counting, and model comparison. Supports OpenAI, DeepSeek, Anthropic Claude, and local vLLM backends with intelligent task-based routing."
+main: server.py
+python:
+  version: "3.10"
+  requirements: requirements.txt
